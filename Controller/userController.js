@@ -14,7 +14,7 @@ exports.addUser = (req, res) => {
             res.status(500).json({ message: err.message })
         }
         else {
-            res.status(200).json({ message: "user added successfully" })
+            res.status(200).json({ message: "Your new account has been successfully created.Please Login to new account!!" })
         }
     })
 }
